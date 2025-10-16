@@ -112,3 +112,9 @@ meter {
 ::-webkit-details-marker {
     display: none;
 }
+
+/*apply input styles for input elements */
+input[type="checkbox"],
+input[type="radio"] {
+    all: revert;
+}
