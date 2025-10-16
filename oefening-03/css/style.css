@@ -1,0 +1,53 @@
+body{
+    background: #120c87;
+    background: linear-gradient(90deg, rgba(18, 12, 135, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+input{
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.514);
+    padding: 10px;
+}
+
+
+.login-button{
+    width: fit-content;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+
+}
+
+section{
+    background-color: white;
+    padding: 1rem 5rem;
+    border-radius: 5px;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+
+section header h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+section p{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
