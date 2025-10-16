@@ -1,0 +1,52 @@
+body{
+    background: #120c87;
+    background: linear-gradient(90deg, rgba(18, 12, 135, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+select{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+input{
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.conformation-button{
+    width: fit-content;
+    font-weight: bold;
+}
+input:hover , input:focus{
+    outline: 1px solid purple;
+    border-radius: 7px;
+}
+
+section{
+    background-color: white;
+    padding: 1rem 5rem;
+    align-items: center;
+}
+
+section header{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+section header h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
